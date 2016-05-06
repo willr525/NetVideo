@@ -24,7 +24,7 @@ std::string Customer::getName() const {
 
     return name;
 }
-
+//remove old code now recalling a new method
 // add a rental to this customer
 void Customer::addRental(const Rental& rental) {
 

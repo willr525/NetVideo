@@ -12,6 +12,8 @@
 #include <string>
 #include <vector>
 
+//...
+
 // constructor
 Customer::Customer(const std::string& name)
     : name(name)

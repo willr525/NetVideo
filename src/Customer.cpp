@@ -54,6 +54,8 @@ std::string Customer::statement() const {
         result += "\t";
         result += it->getVideo().getTitle();
         result += "\t";
+        
+        //Add an empty method amount (couldn't see the text)
 
         double thisAmount = 0;
         switch(it->getVideo().getCode()) {

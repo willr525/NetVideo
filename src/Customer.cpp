@@ -32,8 +32,8 @@ void Customer::addRental(const Rental& rental) {
 // customer rental statement
 std::string Customer::statement() const {
 
-    // customer name
-    std::string result("Rental Record for ");
+    // customer name, changed output
+    std::string result("The Rental Records for ");
     result += getName();
     result += "\n";
 
